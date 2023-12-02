@@ -88,7 +88,9 @@ Voglio mostrare $l\ge m$.
 Assumo per assurdo $l<m$
 Scelgo $\varepsilon>0\mbox{ t.c. }l<l+\varepsilon<\frac{l+m}{2}<m-\varepsilon<m$
 Ma per ipotesi:
-$$\exists p_\varepsilon\in\mathbb{N}\mbox{ t.c. }l-\varepsilon\le a_n\le l+\varepsilon \ \forall n\ge p_\varepsilon$$ $$\exists q_\varepsilon\in\mathbb{N}\mbox{ t.c. }m-\varepsilon\le b_n\le m+\varepsilon \ \forall n\ge q_\varepsilon$$
+$$\exists p_\varepsilon\in\mathbb{N}\mbox{ t.c. }l-\varepsilon\le a_n\le l+\varepsilon \ \forall n\ge p_\varepsilon$$
+
+$$\exists q_\varepsilon\in\mathbb{N}\mbox{ t.c. }m-\varepsilon\le b_n\le m+\varepsilon \ \forall n\ge q_\varepsilon$$
 Quindi $\forall n\ge\max\{p_\varepsilon,q_\varepsilon\}$ si ha:
 $$a_n\le l+\varepsilon<\frac{l+m}{2}<m-\varepsilon\le b_n \Rightarrow a_n<b_n$$
 che è una contraddizione poiché doveva essere $a_n\ge b_n$ 
@@ -154,7 +156,8 @@ si ha
 $$\frac{a_{\overline n+1}}{a_n}<m$$
 In particolare: 
 $$\begin{split}n=\overline n &\ \ \ \ \ \ \ \ \ \ \frac{a_{\overline n+1}}{a_\overline n}<m\Leftrightarrow a_{\overline n+1}<m\cdot a_\overline n
-\\ n=\overline n+1 &\ \ \ \ \ \ \ \ \ \ \frac{a_{\overline n+2}}{a_{\overline n+1}}<m\Leftrightarrow a_{\overline n+2}<m\cdot a_{\overline n+1}<m^2a_\overline n\\ n=\overline n+2 &\ \ \ \ \ \ \ \ \ \ \frac{a_{\overline n+3}}{a_{\overline n+2}}<m\Leftrightarrow a_{\overline n+3}<m\cdot a_{\overline n+2}<m^3a_\overline n\end{split}$$ $$n=\overline n+k-1 \Rightarrow a_\overline n+k<m^k\cdot a_\overline n \ \ \ \  \ \forall k>0$$
+\\ n=\overline n+1 &\ \ \ \ \ \ \ \ \ \ \frac{a_{\overline n+2}}{a_{\overline n+1}}<m\Leftrightarrow a_{\overline n+2}<m\cdot a_{\overline n+1}<m^2a_\overline n\\ n=\overline n+2 &\ \ \ \ \ \ \ \ \ \ \frac{a_{\overline n+3}}{a_{\overline n+2}}<m\Leftrightarrow a_{\overline n+3}<m\cdot a_{\overline n+2}<m^3a_\overline n\end{split}$$ 
+$$n=\overline n+k-1 \Rightarrow a_\overline n+k<m^k\cdot a_\overline n \ \ \ \  \ \forall k>0$$
 Chiamo $n=\overline{n}+k$ : 
 $$a_n<m^{n-\overline{n}}\cdot a_\overline{n}=m^n\cdot\frac{a_\overline{n}}{m^\overline{n}}$$
 Riassumendo: 
