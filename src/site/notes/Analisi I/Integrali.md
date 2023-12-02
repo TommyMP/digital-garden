@@ -16,7 +16,9 @@ Sia $f[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della fo
  $$S_R(f,c_1,c_2,\ldots,c_n)=\sum^n_{i=1}f(c_i)\underbrace{\frac{b-a}{n}}_{(x_i-x_{i-1})}$$
 #### Teorema - Integrale #teor
 Sia $f\colon[a,b]\to\mathbb{R}$ continua, allora
-$$\exists \lim_{n\to+\infty} S_R(f,c_1,\ldots,c_n) \in \mathbb{R}$$e non dipende dalla scelta dei $c_i$
+
+$$\exists \lim_{n\to+\infty} S_R(f,c_1,\ldots,c_n) \in \mathbb{R}$$
+e non dipende dalla scelta dei $c_i$
 { #6570d0}
 
 #### Definizione - Integrale #def
