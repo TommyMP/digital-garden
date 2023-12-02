@@ -18,7 +18,10 @@ Le successive due definizioni di limite (tramite successione e tramite intorno) 
 Sia $I$ intervallo o intervallo forato,
 Sia $f:I\to\mathbb{R}$, sia $c\in\Big[\inf I, \sup I\Big]$,
 $l\in\overline{\mathbb{R}}$.
-Diciamo che $$\exists\lim_{x\to c}f(x)=l$$se $$\forall(a_n)_{n\in\mathbb{N}}\text{ successione in } I\setminus\{c\} \mbox{ t.c. } a_n\xrightarrow[n\to+\infty]{}c \ \ \ \text{ si ha } \ \ \ f(a_n)\to l$$
+Diciamo che 
+$$\exists\lim_{x\to c}f(x)=l$$
+se 
+$$\forall(a_n)_{n\in\mathbb{N}}\text{ successione in } I\setminus\{c\} \mbox{ t.c. } a_n\xrightarrow[n\to+\infty]{}c \ \ \ \text{ si ha } \ \ \ f(a_n)\to l$$
 - **convergente:** $l\in\mathbb{R}$
 - **divergente:** $l=\pm\infty$
 - **infinitesima:** $l=0$
@@ -27,9 +30,13 @@ Diciamo che $$\exists\lim_{x\to c}f(x)=l$$se $$\forall(a_n)_{n\in\mathbb{N}}\tex
 Sia $I$ intervallo o intervallo forato,
 Sia $f:I\to\mathbb{R}$, sia $c\in\Big[\inf I, \sup I\Big]$,
 $l\in\overline{\mathbb{R}}$.
-Diciamo che $$\exists\lim_{x\to c}f(x)=l$$se $$\forall\ V \text{ intorno di } l,\exists\ U_V \text{ intorno di } c \mbox{ t.c } \forall x\in U_V\setminus\{0\}\ \ \text{ si ha }\ \ f(x)\in V$$
+Diciamo che
+$$\exists\lim_{x\to c}f(x)=l$$
+se
+$$\forall\ V \text{ intorno di } l,\exists\ U_V \text{ intorno di } c \mbox{ t.c } \forall x\in U_V\setminus\{0\}\ \ \text{ si ha }\ \ f(x)\in V$$
 ##### Osservazione
-Esempio caso $l,c\in\mathbb{R}$ $$\forall\varepsilon>0,\exists\delta_\varepsilon>0\mbox{ t.c. se } \underset{(x\neq0)}{|x-c|}<\delta_\varepsilon\ \ \ \text{ si ha } \ \ \ |f(x)-l|<\varepsilon$$ 
+Esempio caso $l,c\in\mathbb{R}$ 
+$$\forall\varepsilon>0,\exists\delta_\varepsilon>0\mbox{ t.c. se } \underset{(x\neq0)}{|x-c|}<\delta_\varepsilon\ \ \ \text{ si ha } \ \ \ |f(x)-l|<\varepsilon$$ 
 > $\varepsilon$ è il raggio dell'intorno di $l$
 > $\delta_\varepsilon$ è il raggio dell'intorno di $c$
 
