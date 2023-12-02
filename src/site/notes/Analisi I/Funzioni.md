@@ -30,14 +30,18 @@ $$\forall x \in A\colon (g\circ f)(x) = g\Big(f(x)\Big)$$
 **Osserviamo** che non è detto che possa fare $f\circ g$. 
 $$g \circ f \neq f \circ g$$
 ##### Funzione Identità
-$$Id_A: \begin{align*}{A\to A} \\ {x \mapsto x} \end{align*} $$ **Osservazione:** invertibile
+$$Id_A: \begin{align*}{A\to A} \\ {x \mapsto x} \end{align*} $$ 
+**Osservazione:** invertibile
+
 $$
 \begin{align*}
 		(f \circ f^{-1})(x) = x \ \ \ \ \ \forall x \in B \\
 		(f^{-1} \circ f)(x) = x \ \ \ \ \ \forall x \in A \\
 \end{align*}
 				$$
+
 cioè
+
 $$
 \begin{align*}
 f\circ f^{-1} = Id_B \\
