@@ -3,7 +3,8 @@
 ---
 
 ### Modulo / Valore Assoluto
-Sia $x \in \mathbb{R}$, poniamo $$
+Sia $x \in \mathbb{R}$, poniamo 
+$$
 |x| = 
 	\begin{cases} 
 		x &\text{se }x\geq0 \\
@@ -18,5 +19,8 @@ $\forall a,b \in \mathbb{R}\colon$
 \* -> **disuguaglianza triangolare**
 
 ### Radice
-Sia $$a \in \mathbb{R}^+ = \{\ x \in \mathbb{R} \mid x \geq 0 \ \}$$Sia $$n \in \mathbb{N}$$
+Sia 
+$$a \in \mathbb{R}^+ = \{\ x \in \mathbb{R} \mid x \geq 0 \ \}$$
+Sia 
+$$n \in \mathbb{N}$$
 Chiamiamo **radice n-esima** di $a$ ( $\sqrt[n]{a}$ ) l'unica soluzione ${x \geq 0}$ dell'equazione $x^n=a$ 
