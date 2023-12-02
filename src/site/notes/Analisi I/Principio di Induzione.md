@@ -9,4 +9,5 @@ Se:
 Allora $p(n)$ è vera $\forall n\in\mathbb{N}$ 
 
 # Disuguaglianza di Bernoulli
-$\forall x\in\mathbb{R},x>-1$ si ha che $$(1+x)^n\ge1+nx$$
+$\forall x\in\mathbb{R},x>-1$ si ha che 
+$$(1+x)^n\ge1+nx$$
