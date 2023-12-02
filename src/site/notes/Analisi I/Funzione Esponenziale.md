@@ -28,7 +28,9 @@ $$\Big[\log_a:\mathbb{R^+}\setminus\{0\}\xrightarrow{\textsf{B}}\mathbb{R}\Big]$
 ### Dimostrazione (proprietà 1) #dim 
 Voglio dimostrare che $log_a(x\cdot y)=\log_ax+\log_ay$
 Infatti:
+
 $$\begin{split}a^{\log_a{xy}}&=xy=a^{\log_ax}\cdot a^{\log_ay}\\&=a^{\log_ax+\log_ay}\end{split}$$
+
 Poiché $\exp_a$ è iniettiva $\Rightarrow \log_a(x\cdot y)=\log_ax+\log_ay$
 ### Formula Cambio Base
 $$\log_b{y}=\frac{\log_ay}{\log_ab}$$
