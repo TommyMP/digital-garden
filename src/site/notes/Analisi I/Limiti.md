@@ -74,3 +74,45 @@ Sia $I$ intervallo o intervallo forato di $\mathbb{R}$,
 $f,g,h:I\to\mathbb{R}, c\in[\inf{I},\sup{I}], l\in\mathbb{R}$
 Se $\lim_{x\to c}f(x)=l$ e $\lim_{x\to c}h(x)=l$
 e $\exists$ un intorno $U$ di $c\mbox{ t.c. } f(x)\le g(x)\le h(x) \ \ \ \forall x \in U\cap I\setminus\{c\}$ allora: $\lim_{x\to c}g(x)=l$
+
+## Calcolo dei limiti
+- **Polinomi:** $lim_{x\to\pm\infty}$ come per le successioni
+- **Funzioni Razionali:** $\frac{p(x)}{q(x)}$ con $p,q$ polinomi
+	- $\lim_{x\to+\infty}$ come per le successioni
+	- $\lim_{x\to c}$ con $c\in\mathbb{D}\ (q(c)\neq0)$, come per le successioni
+	- $\lim_{x\to c}$ con $q(c)=0$:
+		- $\lim_{x\to c}\frac{1}{(x-c)^A}=+\infty$ con $A$ **pari**
+		- $\lim_{x\to c}\frac{1}{(x-c)^B}=\ \nexists$ con $B$ **dispari**
+			- $\lim_{x\to c^+}\frac{1}{(x-c)^B}=+\infty$
+			- $\lim_{x\to c^-}\frac{1}{(x-c)^B}=-\infty$
+- **Funzioni Esponenziali**:
+	- $a>1$
+		- $\lim_{x\to+\infty}a^x=+\infty$
+		- $\lim_{x\to-\infty}a^x=0$
+		- $\lim_{x\to c}a^x=a^c$
+	- $0<a<1$
+		- $\lim_{x\to+\infty}a^x=0$
+		- $\lim_{x\to-\infty}a^x=+\infty$
+		- $\lim_{x\to c}a^x=a^c$
+- **Funzioni Logaritmiche:**
+	- $a>1$
+		- $\lim_{x\to+\infty}\log_ax=+\infty$
+		- $\lim_{x\to0^+}\log_ax=-\infty$
+		- $\lim_{x\to c}\log_ax=\log_ac$
+	- $0<a<1$
+		- $\lim_{x\to+\infty}\log_ax=-\infty$
+		- $\lim_{x\to0^+}\log_ax=+\infty$
+		- $\lim_{x\to c}\log_ax=\log_ac$
+- **Funzioni Trigonometriche:**
+	- $\lim_{x\to\pm\infty}\sin x = \nexists$  (analogo per $\cos x$)
+	- $\lim_{x\to c}\sin x=\sin c$ (analogo per $\cos x$)
+	- $\lim_{x\to\frac{\pi}{2}^-}\tan x=+\infty$ 
+	- $\lim_{x\to\frac{\pi}{2}^+}\tan x=-\infty$ 
+	- $\lim_{x\to\pm\infty}\arctan x=\pm\frac{\pi}{2}$  
+### Operazioni e Forme Indeterminate
+$$\lim_{x\to+\infty}\frac{x^p}{a^x}=0 \ \ \ \ \ \ \ \ \ \ \ p>0, a>1$$
+$$\lim_{x\to-\infty}|x^p|a^x=0 \ \ \ \ \ \ \ \ \ \ \ p>0, a>1$$
+$$\lim_{x\to+\infty}x^pa^x=0 \ \ \ \ \ \ \ \ \ \ \ p>0, 0<a<1$$
+$$\lim_{x\to-\infty}\frac{a^x}{|x|^p}=+\infty \ \ \ \ \ \ \ \ \ \ \ p>0, 0<a<1$$
+$$\underset{\text{usando il cambio di variabile } y=\log_ax}{\lim_{x\to+\infty}\frac{\log_ax}{x^p}=0} \ \ \ \ \ \ \ \ \ \ \ p>0, a>1$$
+### Limiti Notevoli
