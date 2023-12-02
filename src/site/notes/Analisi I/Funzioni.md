@@ -21,8 +21,10 @@ Sia $f\colon A \to B$ invertibile, chiamiamo **funzione inversa** di $f$ la funz
 $$\forall y \in B, f^{-1}(y) \text{ è l'unica soluzione dell'equazione } f(x)=y$$
 ##### Composizione
 Siano $f\colon A\to B,\ g\colon C \to D$ supponiamo che $f(A)\subseteq C$, chiamiamo **funzione composta**
-$$g\circ f\colon A \to D$$ la funzione: 
-$$\forall x \in A\colon (g\circ f)(x) = g\Big(f(x)\Big)$$ **Osserviamo** che non è detto che possa fare $f\circ g$. 
+$$g\circ f\colon A \to D$$
+la funzione:
+$$\forall x \in A\colon (g\circ f)(x) = g\Big(f(x)\Big)$$
+**Osserviamo** che non è detto che possa fare $f\circ g$. 
 $$g \circ f \neq f \circ g$$
 ##### Funzione Identità
 $$Id_A: \begin{align*}{A\to A} \\ {x \mapsto x} \end{align*} $$ **Osservazione:** invertibile
