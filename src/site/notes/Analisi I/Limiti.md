@@ -116,3 +116,22 @@ $$\lim_{x\to+\infty}x^pa^x=0 \ \ \ \ \ \ \ \ \ \ \ p>0, 0<a<1$$
 $$\lim_{x\to-\infty}\frac{a^x}{|x|^p}=+\infty \ \ \ \ \ \ \ \ \ \ \ p>0, 0<a<1$$
 $$\underset{\text{usando il cambio di variabile } y=\log_ax}{\lim_{x\to+\infty}\frac{\log_ax}{x^p}=0} \ \ \ \ \ \ \ \ \ \ \ p>0, a>1$$
 ### Limiti Notevoli
+Sapendo che
+$$\lim_{n\to+\infty}\Big(1+\frac{1}{n}\Big)^n=e\ \ \ \ \ (n\in\mathbb{N})$$
+Si può mostrare che 
+$$\lim_{x\to\pm\infty}\Big(1+\frac{1}{x}\Big)^x=e \ \ \ \ \ \ (x\in\mathbb{R}\setminus\{0\})$$
+Ponendo $y=\frac{1}{x}$ si ottiene
+$$\lim_{x\to0}(1+x)^\frac{1}{x}=e$$
+Applicando $\log$ da entrambe le parti si ha che
+$$\lim_{x\to0}\log\Big[(1+x)^\frac{1}{x}\Big]=1\Leftrightarrow\lim_{x\to0}\frac{\log(1+x)}{x}=1$$
+Partendo da quest'ultimo e ponendo $y=\log(1+x)$ si può trovare:
+$$\lim_{y\to0}\frac{y}{e^y-1}=1\Leftrightarrow\lim_{y\to0}\frac{e^y-1}{y}=1$$
+$\sin x$ e $\cos x$ non ho voglia di farli
+
+### o-Piccoli
+Siano $f,g:I\to\mathbb{R}, c\in[\inf I, \sup I]$
+Diciamo che $f$ è trascurabile rispetto a $g$ e scriviamo $f(x)=o(g(x))$ per $x\to c$ se
+$$\lim_{x\to c}\frac{f(x)}{g(x)}=0$$
+Riscriviamo i limiti notevoli usando gli o-piccoli
+$$\begin{split}&\lim_{x\to0}\frac{\log(1+x)}{x}=1\\&\Leftrightarrow\frac{\log(1+x)-x}{x}=0\\&\Leftrightarrow\log(1+x)-x=o(x)\ \ \ \ \text{ per } x\to0\\&\Leftrightarrow\log(1+x)=x+o(x)\ \ \ \ \text{ per } x\to0\end{split}$$
+$$\begin{split}&\lim_{x\to0}\frac{e^x-1}{x}=1\\&\Leftrightarrow\lim_{x\to0}\frac{e^x-1-x}{x}=0\\&\Leftrightarrow e^x-1-x=o(x)\ \ \ \ \text{ per }x\to0\\&\Leftrightarrow e^x=1+x+o(x)\ \ \ \ \text{ per }x\to0\end{split}$$
