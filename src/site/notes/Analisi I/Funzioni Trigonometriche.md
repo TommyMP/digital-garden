@@ -55,7 +55,7 @@ $\cot:\Big(0,\pi\Big)\xrightarrow{\textsf{B}}\mathbb{R}$ strettamente $\searrow$
 |     | 0 | $\pi/2$ | $\pi/4$ | $\pi/3$ | $\pi/6$|
 |-----|---|---|----|-----|----|
 |$\sin$|$0$|$1$|$\sqrt{2}/2$|$\sqrt{3}/2$|$1/2$|
-|\cos|$1$|$0$|$\sqrt{2}/2$|$1/2$|$\sqrt{3}/2$|
+|$\cos$|$1$|$0$|$\sqrt{2}/2$|$1/2$|$\sqrt{3}/2$|
 
 
 
