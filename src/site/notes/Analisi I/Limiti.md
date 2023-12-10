@@ -69,7 +69,7 @@ Allora:
 1) Se $l>0\Rightarrow\exists$ un intorno $U$ di $c \mbox{ t.c. } f(x)>0 \ \ \ \forall x\in U\cap I \setminus\{c\}$
 2) Se $l<0\Rightarrow\exists$ un intorno $U$ di $c \mbox{ t.c. } f(x)<0 \ \ \ \forall x\in U\cap I \setminus\{c\}$
 
-## Teorema - Dei 2 Carabinieri/Confronto #teor 
+## Teorema - Dei 2 Carabinieri #teor 
 Sia $I$ intervallo o intervallo forato di $\mathbb{R}$,
 $f,g,h:I\to\mathbb{R}, c\in[\inf{I},\sup{I}], l\in\mathbb{R}$
 Se $\lim_{x\to c}f(x)=l$ e $\lim_{x\to c}h(x)=l$
