@@ -4,7 +4,7 @@
 
 
 #### Definizione #def
-Sia $A\neq \varnothing$, chiamiamo **successione in $A$** una qualsiasi funzione $f\colon \to A$.
+Sia $A\neq \varnothing$, chiamiamo **successione in $A$** una qualsiasi funzione $f\colon\mathbb{N} \to A$.
 $$\underbrace{a_n}_{\text{termine della successione}}:= a(n)$$
 ## Limite di Successione
 #### Definizione - Successione Infinitesima #def
@@ -94,6 +94,15 @@ $$\exists q_\varepsilon\in\mathbb{N}\mbox{ t.c. }m-\varepsilon\le b_n\le m+\vare
 Quindi $\forall n\ge\max\{p_\varepsilon,q_\varepsilon\}$ si ha:
 $$a_n\le l+\varepsilon<\frac{l+m}{2}<m-\varepsilon\le b_n \Rightarrow a_n<b_n$$
 che è una contraddizione poiché doveva essere $a_n\ge b_n$ 
+#### Teorema - Permanenza del Segno #teor 
+Sia $(a_n)_{n\in\mathbb{N}}$ successione in $\mathbb{R}$, $l\in\overline{\mathbb{R}}\mbox{ t.c. } \begin{array}. a_n\longrightarrow l \\ n\to+\infty\end{array}$
+- Se $l>0\Rightarrow\exists m_\varepsilon\in\mathbb{N}\mbox{ t.c }a_n>0\ \ \forall n\ge m_\varepsilon$
+- Se  $l<0\Rightarrow\exists p_\varepsilon\in\mathbb{N}\mbox{ t.c }a_n<0\ \ \forall n\ge p_\varepsilon$
+#### Teorema dei 2 Carabinieri #teor 
+Siano $(a_n)_{n\in \mathbb{N}},(n_n)_{n\in \mathbb{N}},(c_n)_{n\in \mathbb{N}}$ successioni in $\mathbb{R}$, $l\in\mathbb{R}$
+Supponiamo: $a_n\le b_n\le c_n$ $\forall n\in\mathbb{N}$
+e $\begin{array}. a_n\longrightarrow l \\ n\to+\infty\end{array}\text{ , } \ \begin{array}. c_n\longrightarrow l \\ n\to+\infty \end{array}$ 
+Allora $\begin{array}. b_n\longrightarrow l \\ n\to+\infty \end{array}$
 #### Operazioni
 Siano $(a_n)_{n\in \mathbb{N}}, (b_n)_{n\in \mathbb{N}},\ l,m\in\mathbb{R}$
 supponiamo $\begin{array}. a_n\longrightarrow l \\ n\to+\infty\end{array}\text{ , } \ \begin{array}. b_n\longrightarrow m \\ n\to+\infty \end{array}$ 
@@ -162,10 +171,20 @@ Chiamo $n=\overline{n}+k$ :
 $$a_n<m^{n-\overline{n}}\cdot a_\overline{n}=m^n\cdot\frac{a_\overline{n}}{m^\overline{n}}$$
 Riassumendo: 
 $$0<a_n<\underbrace{m^n\cdot\frac{a_\overline{n}}{m^\overline{n}}}_{0 \text{ (0<m<1)}} \ \ \ \ \forall n\ge\overline{n}$$
-Per il [[Analisi I/Successioni#Teorema del Confronto teor\|teorema dei carabinieri]]: 
+Per il [[Analisi I/Successioni#Teorema dei 2 Carabinieri teor \|teorema dei carabinieri]]: 
 $$\begin{array}.a_n\longrightarrow0\\ \small{n\to+\infty}\end{array}$$
 
 ## Successione Trascurabile
 Siano $(a_n)_{n\in \mathbb{N}}, (b_n)_{n\in \mathbb{N}}$ **successioni reali**, diciamo che $a_n$ è **trascurabile** rispetto a $b_n$ se:
 $$\lim_{n\to+\infty}\frac{a_n}{b_n}=0$$
 in tal caso scriviamo $a_n=o(b_n)$ per $n\to+\infty$
+**Esempi:**
+- $n^2=o(n^3)$ per $n\to+\infty$
+- $n^p=o(n^q)$ per $n\to+\infty$ se $p<q$
+- $n^{10}=o(2^n)$ per $n\to+\infty$
+- $2^n=o(n!)$ per $n\to+\infty$
+- $n!=o(n^n)$ per $n\to+\infty$
+##### Calcoli con gli $o(...)$
+- Se $a_n=o(b_n), c_n=o(b_n)\Rightarrow a_n+c_n=o(b_n)$
+- Se $a_n=o(b_n), c_n=o(d_n)\Rightarrow a_n\cdot c_n=o(b_n\cdot d_n)$
+- Se $a_n=o(b_n), a_n\cdot c_n=o(b_n\cdot c_n)$
