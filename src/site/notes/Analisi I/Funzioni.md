@@ -2,7 +2,11 @@
 {"dg-publish":true,"permalink":"/analisi-i/funzioni/"}
 ---
 
-#### Definizione #def
+#### Definizione - Intervallo #def 
+Diciamo che $I\subseteq\mathbb{R}$ è un intervallo se:
+$$\forall x,y\in I \text{ e } \forall z\in\mathbb{R} \mbox{ t.c. } x<z<y \text{ si ha } z\in I$$
+
+#### Definizione - Funzione #def
 Siano $A,B \neq \varnothing$, chiamiamo **funzione** da $A$ a $B$ una legge $f$ che ad ogni elemento di $A$ associa uno ed un solo elemento di $B$: 
 $$f\colon A\to B$$
 $$\forall x \in A, \exists! y \in B \ \mbox{t.c.}\ y=f(x)$$
@@ -79,4 +83,9 @@ Sia $T\in\mathbb{R^+}\setminus\{0\}$, diciamo che $A\subseteq\mathbb{R}$ è $T\t
 ### Definizione - Funzione Periodica #def 
 Sia $A\subseteq\mathbb{R}$ $T\text{-Periodico}, f:A\to\mathbb{R}$
 Diciamo che $f$ è $T\text{-Periodico}$ se $\forall x\in A:f(x)=f(x+T)$
-
+## Operazioni sul grafico
+- $f(x)+k \ (k>0)$: *la funzione si in alto di $k$*
+- $f(x)-k \ (k>0)$: *la funzione si in basso di $k$*
+- $f(x-k)\ (k>0)$: *la funzione si sposta a destra di $k$*
+- $f(|x|)$: *la parte a sinistra dell'asse y è la specchiata di quella a destra*
+- $|f(x)|$: *la parte sotto l'asse x viene specchiata sopra all'asse x*
