@@ -8,7 +8,7 @@ Sia $A\subseteq\mathbb{R},A\neq\varnothing$
 Diciamo che $M\in\mathbb{R}$ è **massimo** di $A$ se:
 - $M\in A$
 - $M\ge a \ \ \ \ \ \forall a\in A$
-Diciamo che $m\in\mathbb{R} è **minimo** di $A$ se:
+Diciamo che $m\in\mathbb{R}$ è **minimo** di $A$ se:
 - $m\in A$
 - $m\le a \ \ \ \ \ \forall a\in A$
 ##### Osservazione
