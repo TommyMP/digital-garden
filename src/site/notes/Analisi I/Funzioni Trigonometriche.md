@@ -13,7 +13,7 @@ Sia $U=\Big\{(x,y)\in\mathbb{R}\times\mathbb{R}\mid x^2+y^2=1\Big\}$
 - $\sin\alpha\in[-1,1]\ \ \forall\alpha\in\mathbb{R}$
 - $\cos^2\alpha+\sin^2\alpha=1\ \ \forall\alpha\in\mathbb{R}$
 - $\cos\alpha=\cos(-\alpha)$ pari
-- $\sin\alpha=-\sin(-\alpha)$ disbari
+- $\sin\alpha=-\sin(-\alpha)$ dispari
 - $\cos\alpha=-\cos(\pi-\alpha)$
 - $\sin\alpha=\sin(\pi-\alpha)$
 ##### Formule
