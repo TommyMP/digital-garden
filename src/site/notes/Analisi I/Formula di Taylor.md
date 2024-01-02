@@ -36,9 +36,9 @@ Per il [[Analisi I/Limiti#Teorema - Dei 2 Carabinieri teor\|teorema dei due cara
 $$\frac{R(x)}{x^2}\underset{x\to0}{\longrightarrow}0$$
 ### Formule di Taylor di Funzioni Elementari
 per $x\to0$:
-$$e^x\sum^n_{k=0}\frac{1}{k!}+o(x^n)=1+x+\frac{x^2}{2}+\frac{x^3}{3!}+\frac{x^4}{4!}+\dots+\frac{x^n}{n!}+o(x^n)$$
+$$e^x=\sum^n_{k=0}\frac{1}{k!}+o(x^n)=1+x+\frac{x^2}{2}+\frac{x^3}{3!}+\frac{x^4}{4!}+\dots+\frac{x^n}{n!}+o(x^n)$$
 $$\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\dots+(\pm1)\frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+1})$$
-$$\cos x=x-\frac{x^2}{2}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots+(\pm1)\frac{x^{2n}}{(2n)!}+o(x^{2n})$$
+$$\cos x=1-\frac{x^2}{2}+\frac{x^4}{4!}-\frac{x^6}{6!}+\dots+(\pm1)\frac{x^{2n}}{(2n)!}+o(x^{2n})$$
 $$\begin{split}\log(1+x)&=f(0)+f'(0)x+\frac{f''(0)}{2}x^2+\frac{f^{(3)}(0)}{3!}x^3+\frac{f^{(4)}(0)}{4!}x^4+\frac{f^{(n)}(0)}{n!}x^n+o(x^n)\\&=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\dots\pm\frac{x^n}{n}+o(x^n)\end{split}$$
 ##### Osservazione
 Il polinomio di Taylor $T_{c,n}$ è l'unico polinomio con la seguente proprietà:
