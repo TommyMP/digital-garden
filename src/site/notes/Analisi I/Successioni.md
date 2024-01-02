@@ -35,7 +35,7 @@ $$
 n\to +\infty
 \end{array} \ \ \ \ \ \text{ e } \ \ \ \ \
 \begin{array}
-\ a_n\longrightarrow l \\
+\ a_n\longrightarrow m \\
 n\to +\infty
 \end{array}
 $$
