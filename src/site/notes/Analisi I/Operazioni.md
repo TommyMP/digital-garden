@@ -13,8 +13,8 @@ $$
 ##### Proprietà
 $\forall a,b \in \mathbb{R}\colon$
 -  $|a\cdot b|=|a|\cdot |b|$
-- $|a+b|=|a|+|b|$           | *
-- $|a-b| =||a|-|b||$         | *
+- $|a+b|\le|a|+|b|$           | *
+- $|a-b|\ge||a|-|b||$         | *
 
 \* -> **disuguaglianza triangolare**
 
