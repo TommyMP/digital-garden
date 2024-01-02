@@ -99,7 +99,7 @@ Sia $(a_n)_{n\in\mathbb{N}}$ successione in $\mathbb{R}$, $l\in\overline{\mathbb
 - Se $l>0\Rightarrow\exists m_\varepsilon\in\mathbb{N}\mbox{ t.c }a_n>0\ \ \forall n\ge m_\varepsilon$
 - Se  $l<0\Rightarrow\exists p_\varepsilon\in\mathbb{N}\mbox{ t.c }a_n<0\ \ \forall n\ge p_\varepsilon$
 #### Teorema dei 2 Carabinieri #teor 
-Siano $(a_n)_{n\in \mathbb{N}},(n_n)_{n\in \mathbb{N}},(c_n)_{n\in \mathbb{N}}$ successioni in $\mathbb{R}$, $l\in\mathbb{R}$
+Siano $(a_n)_{b\in \mathbb{N}},(n_n)_{n\in \mathbb{N}},(c_n)_{n\in \mathbb{N}}$ successioni in $\mathbb{R}$, $l\in\mathbb{R}$
 Supponiamo: $a_n\le b_n\le c_n$ $\forall n\in\mathbb{N}$
 e $\begin{array}. a_n\longrightarrow l \\ n\to+\infty\end{array}\text{ , } \ \begin{array}. c_n\longrightarrow l \\ n\to+\infty \end{array}$ 
 Allora $\begin{array}. b_n\longrightarrow l \\ n\to+\infty \end{array}$
