@@ -153,11 +153,11 @@ $$\begin{split}
 \end{split}$$
 Quindi:
 $$\int_4^5\frac{x+1}{(x-3)(x-1)}\,dx=\int_4^5\frac{2}{x-3}\,dx-\int_4^5\frac{1}{x-1}\,dx=\Big[2\log(x-3)-log(x-1)\Big]_4^5$$
-#### Caso $\Delta=0$ :ios_ribbonpink:
+#### Caso $\Delta=0$ 
 $$\int_1^2\frac{x+1}{x^2-6x+9}\,dx=\int_1^2\frac{x+1}{(x-3)^2}\,dx$$
 Pongo $t=x-3, dt=dx$
 $$\int_{-2}^{-1}\frac{t+4}{t^2}\,dt=\int_{-2}^{-1}\Big(\frac{1}{2}+\frac{4}{t^2}\Big)=\Big[\log|t|-\frac{4}{t}\Big]_{-2}^{-1}$$
-#### Caso $\Delta<0$ :ios_ribbonpink:
+#### Caso $\Delta<0$ 
 $$\int_1^2\frac{2x+1}{2+x^2}\,dx=\int_1^2\Big(\underbrace{\frac{2x}{2+x^2}}_{\Big[\log(2+x^2)\Big]_1^2}+\underbrace{\frac{1}{2+x^2}}_*\Big)$$
 $*$:
 $$\int_1^2\frac{1}{2+x^2}\,dx=\int_1^2\frac{1}{2}\Big(\frac{1}{1+(\frac{x}{\sqrt{2}})^2}\Big)\,dx=\int_1^2\frac{1\cdot\sqrt{2}}{2}\Big(\frac{1\cdot\frac{1}{\sqrt{2}}}{1+(\frac{x}{\sqrt{2}})^2}\Big)\,dx=\Big[\frac{\sqrt{2}}{2}\arctan(\frac{x}{\sqrt{2}}\Big]_1^2$$
