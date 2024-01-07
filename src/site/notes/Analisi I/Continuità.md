@@ -20,7 +20,7 @@ Continuo a dividere a metà:
 - Vado avanti indefinitivamente:
 	1) $a\le a_n\le b_n\le b\ \ \ \ \forall n\in\mathbb{N}$
 	2) $a_{n+1}\ge a_n\ \ \ \forall n\Rightarrow a_n\nearrow$
-	3) $b_{n+1}\ge b_n\ \ \ \forall n\Rightarrow b_n\searrow$
+	3) $b_{n+1}\le b_n\ \ \ \forall n\Rightarrow b_n\searrow$
 	4) $b_n-a_n=\frac{b-a}{2^n}$
 	5) $f(a_n)<0<f(b_n)\forall n\in\mathbb{N}$
 	Da 2) e 3) segue che $\exists \ \lim_{n\to+\infty}a_n$ e $\exists \ \lim_{n\to+\infty}b_n$.
