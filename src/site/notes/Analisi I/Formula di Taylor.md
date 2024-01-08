@@ -31,7 +31,7 @@ $$\exists d_x\in(0,x)\mbox{ t.c. } \frac{R(x)-R(0)}{x}=R'(d_x)$$
 Divido per $x$
 $$\frac{R(x)-\overbrace{R(0)}^0}{x^2}=\frac{R'(d_x)}{x}$$
 Dunque
-$$0\le\Big|\frac{R(x)}{x^2}\Big|=\Big|\frac{R'(d_x)}{x}\Big|\underbrace{\le}_{\text{poiché }|x|>|d_x|}\underbrace{\Big|\frac{R'(d_x)}{x}\Big|}_{0\text{ per }x\to0}$$
+$$0\le\Big|\frac{R(x)}{x^2}\Big|=\Big|\frac{R'(d_x)}{x}\Big|\underbrace{\le}_{\text{poiché }|x|>|d_x|}\underbrace{\Big|\frac{R'(d_x)}{d_x}\Big|}_{0\text{ per }x\to0}$$
 Per il [[Analisi I/Limiti#Teorema - Dei 2 Carabinieri teor\|teorema dei due carabinieri]] deduco che
 $$\frac{R(x)}{x^2}\underset{x\to0}{\longrightarrow}0$$
 ### Formule di Taylor di Funzioni Elementari
