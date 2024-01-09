@@ -7,7 +7,7 @@ $$ \Gamma_{f} = \{\ (x,y) \in \mathbb{R}\times\mathbb{R} \mid x \in [a,b], 0\leq
  Osserviamo che:
  $$\underbrace{(b-a)\inf_{[a,b]} f}_\text{area} \leq \text{Area}(\Gamma_f) \leq \underbrace{(b-a)\sup_{[a,b]}f}_\text{area}$$
 Analogamente, se suddivido $[a,b]$ in $n$ parti uguali $[x_{i-1}, x_i]$, posso dire che:
- $$\sum_{i=1}^n{(x_1-x_i)} \inf_{[x_{i-1}, x_i]}f\leq \text{Area}(\Gamma_f)\leq \sum_{i=1}^n{(x_1-x_i)} \sup_{[x_{i-1}, x_i]}f$$
+ $$\sum_{i=1}^n{(x_i-x_{i-1})} \inf_{[x_{i-1}, x_i]}f\leq \text{Area}(\Gamma_f)\leq \sum_{i=1}^n{(x_i-x_{i-1})} \sup_{[x_{i-1}, x_i]}f$$
  
 ## Integrale di Funzioni Continue (Riemann)
 Sia $f[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1}, x_i]$ dove:
@@ -139,7 +139,7 @@ Dato $Q_2(x)=ax^2+bx+c$, ho 3 possibili casi:
 1) $\Delta=b^2-4ac>0$ ($Q$ ha 2 radici distinte)
 2) $\Delta=0$
 3) $\Delta=b^2-4ac<0$ ($Q$ non si scompone)
-#### Caso $\Delta>0$ :ios_ribbonpink:
+#### Caso $\Delta>0$ 
 $$\int_4^5\frac{x+1}{x^2-4x+3}\,dx$$
 Osservo che $x^2-4x+3=(x-3)(x-1)$
 Cerco $A,B\in\mathbb{R}$ t.c.
