@@ -10,7 +10,7 @@ Analogamente, se suddivido $[a,b]$ in $n$ parti uguali $[x_{i-1}, x_i]$, posso d
  $$\sum_{i=1}^n{(x_i-x_{i-1})} \inf_{[x_{i-1}, x_i]}f\leq \text{Area}(\Gamma_f)\leq \sum_{i=1}^n{(x_i-x_{i-1})} \sup_{[x_{i-1}, x_i]}f$$
  
 ## Integrale di Funzioni Continue (Riemann)
-Sia $f:[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1}, x_i]$ dove:ù
+Sia $f:[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1}, x_i]$ dove<
  $$\begin{cases} x_0=a \\ x_n=b \\ x_i-x_{i-1} = \frac{b-a}{n} \end{cases}$$
  Sia $C_i\in[x_{i-1}, x_i] \forall i=1,\ldots,n$, chiamiamo **somma di Riemann** di $f$:
  $$S_R(f,c_1,c_2,\ldots,c_n)=\sum^n_{i=1}f(c_i)\underbrace{\frac{b-a}{n}}_{(x_i-x_{i-1})}$$
@@ -81,7 +81,7 @@ Ricordiamo la definizione di integrale:
 Suddivido $[a,b]$ in $n$ sotto-intervalli:
 $$[x_{i-1},x_i]\text{ con }\begin{cases}x_0=a\\x_n=b\end{cases}\ \ \ \ \ x_i-x_{i-1}=\frac{b-a}{n}$$
 Si ha che:
-$$f(b)-f(a)=\sum^n_{i=1}\Big(f(x_1)-f(x_{i-1})\Big)$$
+$$f(b)-f(a)=\sum^n_{i=1}\Big(f(x_i)-f(x_{i-1})\Big)$$
 Per il [[Analisi I/Calcolo Differenziale#Teorema - Lagrange teor\|teorema di Lagrange]]: $\exists c_i\in[x_{i-1},x_i]$ t.c.
 $$f(b)-f(a)=\sum_{i=1}^n\Big(f(x_i)-f(x_i-1)\Big)=\underbrace{\sum_{i=1}^nf'(c_i)(x_i-x_{x-1})}_{\text{def Somma di Riemann}=S_R(f',c_1,...,c_n)}$$
 Passando al limite per $n\to\infty$, concludo
