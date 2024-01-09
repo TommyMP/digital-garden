@@ -10,7 +10,7 @@ Analogamente, se suddivido $[a,b]$ in $n$ parti uguali $[x_{i-1}, x_i]$, posso d
  $$\sum_{i=1}^n{(x_i-x_{i-1})} \inf_{[x_{i-1}, x_i]}f\leq \text{Area}(\Gamma_f)\leq \sum_{i=1}^n{(x_i-x_{i-1})} \sup_{[x_{i-1}, x_i]}f$$
  
 ## Integrale di Funzioni Continue (Riemann)
-Sia $f:[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1}, x_i]$ dove:
+Sia $f:[a,b]\to\mathbb{R}$ continua, suddivido $[a,b]$ in $n$ intervalli della forma $[x_{i-1}, x_i]$ dove:ù
  $$\begin{cases} x_0=a \\ x_n=b \\ x_i-x_{i-1} = \frac{b-a}{n} \end{cases}$$
  Sia $C_i\in[x_{i-1}, x_i] \forall i=1,\ldots,n$, chiamiamo **somma di Riemann** di $f$:
  $$S_R(f,c_1,c_2,\ldots,c_n)=\sum^n_{i=1}f(c_i)\underbrace{\frac{b-a}{n}}_{(x_i-x_{i-1})}$$
