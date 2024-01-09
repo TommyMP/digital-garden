@@ -83,7 +83,7 @@ $$[x_{i-1},x_i]\text{ con }\begin{cases}x_0=a\\x_n=b\end{cases}\ \ \ \ \ x_i-x_{
 Si ha che:
 $$f(b)-f(a)=\sum^n_{i=1}\Big(f(x_i)-f(x_{i-1})\Big)$$
 Per il [[Analisi I/Calcolo Differenziale#Teorema - Lagrange teor\|teorema di Lagrange]]: $\exists c_i\in[x_{i-1},x_i]$ t.c.
-$$f(b)-f(a)=\sum_{i=1}^n\Big(f(x_i)-f(x_i-1)\Big)=\underbrace{\sum_{i=1}^nf'(c_i)(x_i-x_{x-1})}_{\text{def Somma di Riemann}=S_R(f',c_1,...,c_n)}$$
+$$f(b)-f(a)=\sum_{i=1}^n\Big(f(x_i)-f(x_{i-1})\Big)=\underbrace{\sum_{i=1}^nf'(c_i)(x_i-x_{x-1})}_{\text{def Somma di Riemann}=S_R(f',c_1,...,c_n)}$$
 Passando al limite per $n\to\infty$, concludo
 $$f(b)-f(a)=\int_a^bf'(x)\,dx$$
 #### Definizione - Primitiva #def 
