@@ -97,12 +97,12 @@ Posso scrivere il teorema fondamentale del calcolo come:
 ### Teorema - Integrazione per Parti #teor 
 Sia $F$ una primitiva di $f$
 Allora:
-$$\int_a^bf(x)\cdot g(x)\,dx=\Big[F(x)\cdot g(x)\Big]_a^b-\int_a^xF(x)\cdot g'(x)\,dx$$
+$$\int_a^bf(x)\cdot g(x)\,dx=\Big[F(x)\cdot g(x)\Big]_a^b-\int_a^bF(x)\cdot g'(x)\,dx$$
 #### Dimostrazione #dim
 Considero
-$$(Fg)'(x)=F'(x)g'(x)+F(x)g'(x)$$
+$$(Fg)'(x)=F'(x)g(x)+F(x)g'(x)$$
 Integro:
-$$\underbrace{\int_a^bf(x)g(x)\,dx}_{\Big[F(x)g(x)\Big]_a^b}=\int_a^b\overbrace{F'(x)}^{f(x)}g(x)\,dx+\int_a^bF(x)g'(x)\,dx$$
+$$\underbrace{\int_a^b\Big(F(x)g(x)\Big)'\,dx}_{\Big[F(x)g(x)\Big]_a^b}=\int_a^b\overbrace{F'(x)}^{f(x)}g(x)\,dx+\int_a^bF(x)g'(x)\,dx$$
 
 ### Teorema - Integrazione per Sostituzione #teor 
 Siano $I,J$ intervalli di $\mathbb{R}, f\in C(I,\mathbb{R}),\varphi\in C^1(J,I)$ 
