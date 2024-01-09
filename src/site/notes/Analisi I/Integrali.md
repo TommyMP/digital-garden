@@ -61,7 +61,7 @@ $$\frac{1}{b-a}\int_a^bf(x)\,dx=f(c)$$
 ###### 1)
 $\max f$ e $\min f$ esistono per il [[Analisi I/Continuità#Teorema di Weierstrass teor\|teorema di Weierstrass]]
 Si ha:
-	$$\begin{split}\int_a^b\underset{[a,b]}\min{f}\,dx&\le\int_a^bf(x)\,dx\le\int^b_a\underset{[a,b]}\max{f}\,dx\\=(b-a)\cdot\underset{[a,b]}\min{f}&\le\int_a^bf(x)\,dx\le\underset{[a,b]}\max{f}\end{split}$$
+	$$\begin{split}\int_a^b\underset{[a,b]}\min{f}\,dx&\le\int_a^bf(x)\,dx\le\int^b_a\underset{[a,b]}\max{f}\,dx\\=(b-a)\cdot\underset{[a,b]}\min{f}&\le\int_a^bf(x)\,dx\le(b-a)\cdot\underset{[a,b]}\max{f}\end{split}$$
 	divido per $(b-a)$ e ottengo $1$
 
 ###### 2)
@@ -83,7 +83,7 @@ $$[x_{i-1},x_i]\text{ con }\begin{cases}x_0=a\\x_n=b\end{cases}\ \ \ \ \ x_i-x_{
 Si ha che:
 $$f(b)-f(a)=\sum^n_{i=1}\Big(f(x_i)-f(x_{i-1})\Big)$$
 Per il [[Analisi I/Calcolo Differenziale#Teorema - Lagrange teor\|teorema di Lagrange]]: $\exists c_i\in[x_{i-1},x_i]$ t.c.
-$$f(b)-f(a)=\sum_{i=1}^n\Big(f(x_i)-f(x_{i-1})\Big)=\underbrace{\sum_{i=1}^nf'(c_i)(x_i-x_{x-1})}_{\text{def Somma di Riemann}=S_R(f',c_1,...,c_n)}$$
+$$f(b)-f(a)=\sum_{i=1}^n\Big(f(x_i)-f(x_{i-1})\Big)=\underbrace{\sum_{i=1}^nf'(c_i)(x_i-x_{i-1})}_{\text{def Somma di Riemann}=S_R(f',c_1,...,c_n)}$$
 Passando al limite per $n\to\infty$, concludo
 $$f(b)-f(a)=\int_a^bf'(x)\,dx$$
 #### Definizione - Primitiva #def 
