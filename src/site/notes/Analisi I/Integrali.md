@@ -61,7 +61,7 @@ $$\frac{1}{b-a}\int_a^bf(x)\,dx=f(c)$$
 ###### 1)
 $\max f$ e $\min f$ esistono per il [[Analisi I/Continuità#Teorema di Weierstrass teor\|teorema di Weierstrass]]
 Si ha:
-	$$\begin{split}\int_a^b\underset{[a,b]}\min{f}\,dx&\le\int_a^bf(x)\,dx\le\int^b_a\underset{[a,b]}\max{f}\,dx\\=(b-a)\cdot\underset{[a,b]}\min{f}&\le\int_a^bf(x)\,dx\le(b-a)\cdot\underset{[a,b]}\max{f}\end{split}$$
+$$\begin{split}\int_a^b\underset{[a,b]}\min{f}\,dx&\le\int_a^bf(x)\,dx\le\int^b_a\underset{[a,b]}\max{f}\,dx\\=(b-a)\cdot\underset{[a,b]}\min{f}&\le\int_a^bf(x)\,dx\le(b-a)\cdot\underset{[a,b]}\max{f}\end{split}$$
 	divido per $(b-a)$ e ottengo $1$
 
 ###### 2)
@@ -110,7 +110,7 @@ Allora:
 1) Se $\alpha,\beta\in J$:
 $$\int_\alpha^\beta f(\varphi(t))\cdot\varphi'(t)\,dt=\int_{\varphi(\alpha)}^{\varphi(\beta)}f(x)\,dx$$
 2) Se $\varphi:J\to I$ è invertibile, siano $a,b\in I$
-$$\Rightarrow\int_a^bf(x)\,dx=\int_{\varphi^{-1}(a)}^{\varphi^{-1}(b)}f(\varphi(t))\varphi'(d)\,dt$$
+$$\Rightarrow\int_a^bf(x)\,dx=\int_{\varphi^{-1}(a)}^{\varphi^{-1}(b)}f(\varphi(t))\varphi'(t)\,dt$$
 
 #### Dimostrazione #dim
 ###### 1)
