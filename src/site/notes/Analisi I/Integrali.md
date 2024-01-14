@@ -62,7 +62,7 @@ $$\frac{1}{b-a}\int_a^bf(x)\,dx=f(c)$$
 $\max f$ e $\min f$ esistono per il [[Analisi I/Continuità#Teorema di Weierstrass teor\|teorema di Weierstrass]]
 Si ha:
 $$\begin{split}\int_a^b\underset{[a,b]}\min{f}\,dx&\le\int_a^bf(x)\,dx\le\int^b_a\underset{[a,b]}\max{f}\,dx\\=(b-a)\cdot\underset{[a,b]}\min{f}&\le\int_a^bf(x)\,dx\le(b-a)\cdot\underset{[a,b]}\max{f}\end{split}$$
-	divido per $(b-a)$ e ottengo $1$
+divido per $(b-a)$ e ottengo $1$
 
 ###### 2)
 Dal punto 1) so che:
